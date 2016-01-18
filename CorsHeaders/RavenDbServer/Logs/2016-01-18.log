@@ -1,0 +1,984 @@
+time,logger,level,database,message,exception
+2016-01-18 12:53:54.6725,Raven.Database.DocumentDatabase,Debug,<system>,Start loading the following database: <system>,
+2016-01-18 12:53:55.2456,Raven.Database.Impl.DocumentCacher,Info,<system>,"MemoryCache Settings:
+  PhysicalMemoryLimit = 99
+  CacheMemoryLimit    = 5345640448
+  PollingInterval     = 00:02:00",
+2016-01-18 12:53:55.2526,Raven.Database.Storage.Esent.StorageConfigurator,Info,<system>,"Esent Settings:
+  MaxVerPages      = 32768
+  CacheSizeMax     = 262144
+  DatabasePageSize = 4096",
+2016-01-18 12:53:55.2526,Raven.Storage.Esent.TransactionalStorage,Info,<system>,"Esent Settings:
+  MaxVerPages      = 32768
+  CacheSizeMax     = 262144
+  DatabasePageSize = 4096",
+2016-01-18 12:53:57.2168,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,Document with key 'Raven/Backup/Status' was not found,
+2016-01-18 12:53:57.3268,Raven.Database.DocumentDatabase,Debug,,Finish loading the following database: <system>,
+2016-01-18 12:53:57.3268,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,,Document with key 'Raven/Counters/Enabled' was not found,
+2016-01-18 12:53:57.3268,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,,Document with key 'Raven/Authorization/WindowsSettings' was not found,
+2016-01-18 12:53:57.3268,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 0, for: ReducingExecuter, will wait for additional work",
+2016-01-18 12:53:57.3418,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 0, for: IndexingExecuter, will wait for additional work",
+2016-01-18 12:54:27.1878,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 12:54:57.1998,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 12:55:27.2158,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 12:55:57.2308,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 12:56:19.0200,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  23: GET     -    14 ms -            - 200 - http://localhost:9029/singleAuthToken,
+2016-01-18 12:56:19.0890,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  24: GET     -    42 ms -            - 200 - http://localhost:9029/studio-tasks/server-configs,
+2016-01-18 12:56:19.1400,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  26: GET     -   101 ms -            - 200 - http://localhost:9029/databases?pageSize=1024&getAdditionalData=true,
+2016-01-18 12:56:19.1400,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  27: GET     -    65 ms -            - 200 - http://localhost:9029/fs?pageSize=1024&getAdditionalData=true,
+2016-01-18 12:56:19.1940,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  28: GET     -     5 ms -            - 200 - http://localhost:9029/build/version,
+2016-01-18 12:56:19.1940,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  29: GET     -    40 ms -            - 500 - http://localhost:9029/changes/websocket?singleUseAuthToken=3adb96f9-5c71-4699-ab71-44f6e72dfbaf&id=U7s1V&coolDownWithDataLoss=0&isMultyTenantTransport=false,
+2016-01-18 12:56:19.2290,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  31: GET     -    15 ms -            - 200 - http://localhost:9029/license/status,
+2016-01-18 12:56:19.2290,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,Document with key 'Raven/Alerts' was not found,
+2016-01-18 12:56:19.2440,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  32: GET     -     6 ms -            - 200 - http://localhost:9029/operation/alerts,
+2016-01-18 12:56:19.2720,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,Document with key 'Raven/StudioConfig' was not found,
+2016-01-18 12:56:19.2720,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,Document with key 'Raven/Alerts' was not found,
+2016-01-18 12:56:19.2850,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  34: POST    -    96 ms -            - 200 - http://localhost:9029/queries,
+2016-01-18 12:56:19.2850,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,	Raven/StudioConfig,
+2016-01-18 12:56:19.2850,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  35: POST    -    72 ms -            - 200 - http://localhost:9029/queries,
+2016-01-18 12:56:19.2850,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,	Raven/Alerts,
+2016-01-18 12:56:19.3480,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  37: GET     -    44 ms -            - 200 - http://localhost:9029/debug/plugins,
+2016-01-18 12:56:19.4100,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  38: GET     -     0 ms -            - 200 - http://localhost:9029/singleAuthToken,
+2016-01-18 12:56:19.4560,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  40: GET     -   218 ms -            - 200 - http://localhost:9029/studio-tasks/latest-server-build-version?stableOnly=true&min=3000&max=3599,
+2016-01-18 12:56:19.4970,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  41: GET     -    10 ms -            - 200 - http://localhost:9029/changes/events?singleUseAuthToken=433f9e49-8b94-4848-9130-8ac3c7d9adf4&id=U7s1V&coolDownWithDataLoss=0&isMultyTenantTransport=false,
+2016-01-18 12:56:19.5380,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  42: GET     -     4 ms -            - 200 - http://localhost:9029/changes/config?id=U7s1V&command=watch-prefix&value=Raven%2FCounters%2F,
+2016-01-18 12:56:19.5380,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  43: GET     -    16 ms -            - 200 - http://localhost:9029/changes/config?id=U7s1V&command=watch-prefix&value=Raven%2FDatabases%2F,
+2016-01-18 12:56:19.5510,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  45: GET     -    11 ms -            - 200 - http://localhost:9029/changes/config?id=U7s1V&command=watch-prefix&value=Raven%2FStudioConfig,
+2016-01-18 12:56:19.5510,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  46: GET     -     0 ms -            - 200 - http://localhost:9029/changes/config?id=U7s1V&command=watch-prefix&value=Raven%2FAlerts,
+2016-01-18 12:56:19.5380,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  44: GET     -    10 ms -            - 200 - http://localhost:9029/changes/config?id=U7s1V&command=watch-prefix&value=Raven%2FFileSystems%2F,
+2016-01-18 12:56:27.2468,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 12:56:32.8983,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,Document with key 'Raven/Databases/myDB' was not found,
+2016-01-18 12:56:32.9733,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,Document with key 'Raven/Databases/myDB' was not found,
+2016-01-18 12:56:32.9973,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,"Inserted a new document with key 'Raven/Databases/myDB', update: False, ",
+2016-01-18 12:56:33.0254,Raven.Database.Server.Tenancy.AbstractLandlord`1,Info,<system>,Shutting down database myDB because the tenant database has been updated or removed,
+2016-01-18 12:56:33.0384,Raven.Database.Indexing.WorkContext,Debug,<system>,Incremented work counter to 1 because: PUT Raven/Databases/myDB,
+2016-01-18 12:56:33.0384,Raven.Database.DocumentDatabase,Debug,<system>,Put document Raven/Databases/myDB with etag 01000000-0000-0001-0000-000000000001,
+2016-01-18 12:56:33.0384,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  47: PUT     -   162 ms -            - 200 - http://localhost:9029/admin/databases/myDB,
+2016-01-18 12:56:33.0384,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 1, for: ReducingExecuter, will wait for additional work",
+2016-01-18 12:56:33.0384,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 1, for: IndexingExecuter, will wait for additional work",
+2016-01-18 12:56:33.0384,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,"Document with key 'Raven/Databases/myDB' was found, etag: 01000000-0000-0001-0000-000000000001",
+2016-01-18 12:56:33.0534,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,,"Document with key 'Raven/Databases/myDB' was found, etag: 01000000-0000-0001-0000-000000000001",
+2016-01-18 12:56:33.0534,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  48: GET     -    18 ms -            - 200 - http://localhost:9029/docs/Raven/Databases/myDB,
+2016-01-18 12:56:33.0714,Raven.Database.DocumentDatabase,Debug,myDB,Start loading the following database: myDB,
+2016-01-18 12:56:33.1594,Raven.Database.Impl.DocumentCacher,Info,myDB,"MemoryCache Settings:
+  PhysicalMemoryLimit = 99
+  CacheMemoryLimit    = 5345640448
+  PollingInterval     = 00:02:00",
+2016-01-18 12:56:33.1594,Raven.Database.Storage.Esent.StorageConfigurator,Info,myDB,"Esent Settings:
+  MaxVerPages      = 32768
+  CacheSizeMax     = 262144
+  DatabasePageSize = 4096",
+2016-01-18 12:56:33.1594,Raven.Storage.Esent.TransactionalStorage,Info,myDB,"Esent Settings:
+  MaxVerPages      = 32768
+  CacheSizeMax     = 262144
+  DatabasePageSize = 4096",
+2016-01-18 12:56:34.9315,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,myDB,Document with key 'Raven/Backup/Status' was not found,
+2016-01-18 12:56:34.9475,Raven.Database.DocumentDatabase,Debug,,Finish loading the following database: myDB,
+2016-01-18 12:56:34.9475,Raven.Database.Indexing.WorkContext,Debug,myDB,"No work was found, workerWorkCounter: 0, for: IndexingExecuter, will wait for additional work",
+2016-01-18 12:56:34.9475,Raven.Database.Indexing.WorkContext,Debug,myDB,"No work was found, workerWorkCounter: 0, for: ReducingExecuter, will wait for additional work",
+2016-01-18 12:56:34.9475,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,myDB,Document with key 'Raven/Alerts' was not found,
+2016-01-18 12:56:34.9475,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,myDB,Document with key 'Raven/Javascript/Functions' was not found,
+2016-01-18 12:56:34.9475,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request #  49: GET     -   315 ms - myDB       - 200 - http://localhost:9029/databases/myDB/singleAuthToken,
+2016-01-18 12:56:34.9475,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request #  51: GET     -   278 ms - myDB       - 404 - http://localhost:9029/databases/myDB/docs/Raven/Javascript/Functions,
+2016-01-18 12:56:34.9475,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request #  50: GET     -   272 ms - myDB       - 200 - http://localhost:9029/databases/myDB/operation/alerts,
+2016-01-18 12:56:34.9585,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request #  53: GET     -     0 ms - myDB       - 200 - http://localhost:9029/databases/myDB/singleAuthToken,
+2016-01-18 12:56:34.9585,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request #  54: GET     -     0 ms - myDB       - 200 - http://localhost:9029/databases/myDB/changes/events?singleUseAuthToken=3233e0f9-498a-43f0-a89c-c5152b55c8c6&id=JoLNh&coolDownWithDataLoss=5000&isMultyTenantTransport=false,
+2016-01-18 12:56:34.9915,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request #  55: GET     -     0 ms - myDB       - 200 - http://localhost:9029/databases/myDB/changes/config?id=JoLNh&command=watch-docs,
+2016-01-18 12:56:34.9915,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request #  56: GET     -     0 ms - myDB       - 200 - http://localhost:9029/databases/myDB/changes/config?id=JoLNh&command=watch-indexes,
+2016-01-18 12:56:35.0075,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request #  57: GET     -     0 ms - myDB       - 200 - http://localhost:9029/databases/myDB/changes/config?id=JoLNh&command=watch-bulk-operation,
+2016-01-18 12:56:35.0276,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,myDB,Document with key 'IndexId1' was not found,
+2016-01-18 12:56:35.2506,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request #  58: GET     -   296 ms - myDB       - 500 - http://localhost:9029/databases/myDB/terms/Raven/DocumentsByEntityName?field=Tag&pageSize=1024,
+2016-01-18 12:56:36.2827,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,"Request #  59: GET     - 1,647 ms - myDB       - 200 - http://localhost:9029/databases/myDB/stats",
+2016-01-18 12:56:36.2827,Raven.Database.Storage.IndexDefinitionStorage,Info,myDB,"New index Raven/DocumentsByEntityName:
+using Raven.Abstractions;
+using Raven.Database.Linq;
+using System.Linq;
+using System.Collections.Generic;
+using System.Collections;
+using System;
+using Raven.Database.Linq.PrivateExtensions;
+using Lucene.Net.Documents;
+using System.Globalization;
+using System.Text.RegularExpressions;
+using Raven.Database.Indexing;
+
+public class Index_Raven_DocumentsByEntityName : Raven.Database.Linq.AbstractViewGenerator
+{
+	public Index_Raven_DocumentsByEntityName()
+	{
+		this.ViewText = @""from doc in docs 
+select new 
+{ 
+	Tag = doc[""""@metadata""""][""""Raven-Entity-Name""""], 
+	LastModified = (DateTime)doc[""""@metadata""""][""""Last-Modified""""],
+	LastModifiedTicks = ((DateTime)doc[""""@metadata""""][""""Last-Modified""""]).Ticks 
+};"";
+		this.AddMapDefinition(docs => 
+			from doc in ((IEnumerable<dynamic>)docs)
+			select new {
+				Tag = doc[""@metadata""][""Raven-Entity-Name""],
+				LastModified = (DateTime)doc[""@metadata""][""Last-Modified""],
+				LastModifiedTicks = ((DateTime)doc[""@metadata""][""Last-Modified""]).Ticks,
+				__document_id = doc.__document_id
+			});
+		this.AddField(""Tag"");
+		this.AddField(""LastModified"");
+		this.AddField(""LastModifiedTicks"");
+		this.AddField(""__document_id"");
+		this.AddQueryParameterForMap(""Ticks"");
+		this.AddQueryParameterForMap(""__document_id"");
+		this.AddQueryParameterForReduce(""Ticks"");
+		this.AddQueryParameterForReduce(""__document_id"");
+	}
+}
+
+Compiled to:
+using Raven.Abstractions;
+using Raven.Database.Linq;
+using System.Linq;
+using System.Collections.Generic;
+using System.Collections;
+using System;
+using Raven.Database.Linq.PrivateExtensions;
+using Lucene.Net.Documents;
+using System.Globalization;
+using System.Text.RegularExpressions;
+using Raven.Database.Indexing;
+
+public class Index_Raven_DocumentsByEntityName : Raven.Database.Linq.AbstractViewGenerator
+{
+	public Index_Raven_DocumentsByEntityName()
+	{
+		this.ViewText = @""from doc in docs 
+select new 
+{ 
+	Tag = doc[""""@metadata""""][""""Raven-Entity-Name""""], 
+	LastModified = (DateTime)doc[""""@metadata""""][""""Last-Modified""""],
+	LastModifiedTicks = ((DateTime)doc[""""@metadata""""][""""Last-Modified""""]).Ticks 
+};"";
+		this.AddMapDefinition(docs => 
+			from doc in ((IEnumerable<dynamic>)docs)
+			select new {
+				Tag = doc[""@metadata""][""Raven-Entity-Name""],
+				LastModified = (DateTime)doc[""@metadata""][""Last-Modified""],
+				LastModifiedTicks = ((DateTime)doc[""@metadata""][""Last-Modified""]).Ticks,
+				__document_id = doc.__document_id
+			});
+		this.AddField(""Tag"");
+		this.AddField(""LastModified"");
+		this.AddField(""LastModifiedTicks"");
+		this.AddField(""__document_id"");
+		this.AddQueryParameterForMap(""Ticks"");
+		this.AddQueryParameterForMap(""__document_id"");
+		this.AddQueryParameterForReduce(""Ticks"");
+		this.AddQueryParameterForReduce(""__document_id"");
+	}
+}
+",
+2016-01-18 12:56:36.3567,Raven.Database.Indexing.IndexStorage,Debug,myDB,Creating index 1 with id Raven/DocumentsByEntityName,
+2016-01-18 12:56:36.4847,Raven.Database.Indexing.Index.Indexing,Debug,myDB,Creating index for 1,
+2016-01-18 12:56:36.5067,Raven.Database.Indexing.WorkContext,Debug,myDB,Incremented work counter to 1 because: PUT INDEX Raven/DocumentsByEntityName,
+2016-01-18 12:56:36.5167,Raven.Database.Indexing.WorkContext,Debug,myDB,"No work was found, workerWorkCounter: 1, for: ReducingExecuter, will wait for additional work",
+2016-01-18 12:56:36.5167,Raven.Database.Indexing.WorkContext,Debug,myDB,"No work was found, workerWorkCounter: 1, for: IndexingExecuter, will wait for additional work",
+2016-01-18 12:56:36.5517,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request #  62: GET     -    21 ms - myDB       - 200 - http://localhost:9029/databases/myDB/terms/Raven/DocumentsByEntityName?field=Tag&pageSize=1024,
+2016-01-18 12:56:36.5517,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request #  63: GET     -     1 ms - myDB       - 304 - http://localhost:9029/databases/myDB/terms/Raven/DocumentsByEntityName?field=Tag&pageSize=1024,
+2016-01-18 12:56:36.5517,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request #  64: GET     -    26 ms - myDB       - 200 - http://localhost:9029/databases/myDB/stats,
+2016-01-18 12:56:36.5517,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request #  65: GET     -     0 ms - myDB       - 200 - http://localhost:9029/databases/myDB/stats,
+2016-01-18 12:56:36.5827,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request #  66: POST    -    25 ms - myDB       - 200 - http://localhost:9029/databases/myDB/multi_get?parallel=yes,
+2016-01-18 12:56:36.5827,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request #  67: POST    -    25 ms - myDB       - 200 - http://localhost:9029/databases/myDB/multi_get?parallel=yes,
+2016-01-18 12:56:36.6077,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,myDB,Document with key 'Raven/Studio/Columns/AllDocuments' was not found,
+2016-01-18 12:56:36.6077,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request #  68: POST    -     0 ms - myDB       - 200 - http://localhost:9029/databases/myDB/queries,
+2016-01-18 12:56:36.6077,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,	Raven/Studio/Columns/AllDocuments,
+2016-01-18 12:56:36.6737,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request #  69: GET     -    12 ms - myDB       - 200 - http://localhost:9029/databases/myDB/docs?start=0&pageSize=32,
+2016-01-18 12:56:36.7247,Raven.Database.Indexing.Index.Querying,Debug,myDB,Issuing query on index 1 for all documents,
+2016-01-18 12:56:36.7457,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,myDB,"	Query: 
+	Time: 59 ms
+	Index: Raven/DocumentsByEntityName
+	Results: 0 returned out of 0 total.
+	Timing:
+",
+2016-01-18 12:56:36.7557,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request #  70: GET     -    88 ms - myDB       - 200 - http://localhost:9029/databases/myDB/indexes/Raven/DocumentsByEntityName?query=&start=0&pageSize=0,
+2016-01-18 12:56:36.7557,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,"	Query: 
+	Time: 59 ms
+	Index: Raven/DocumentsByEntityName
+	Results: 0 returned out of 0 total.
+	Timing:",
+2016-01-18 12:56:57.2628,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 12:57:04.9385,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 12:57:27.2788,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 12:57:34.9545,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 12:57:57.2948,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 12:58:04.9705,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 12:58:27.3108,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 12:58:34.9865,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 12:58:48.3629,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,myDB,"	PUT clients/1
+",
+2016-01-18 12:58:48.4049,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,myDB,"Inserted a new document with key 'clients/1', update: False, ",
+2016-01-18 12:58:48.4049,Raven.Database.DocumentDatabase,Debug,myDB,Put document clients/1 with etag 01000000-0000-0001-0000-000000000001,
+2016-01-18 12:58:48.4049,Raven.Database.Indexing.WorkContext,Debug,myDB,Incremented work counter to 2 because: PUT clients/1,
+2016-01-18 12:58:48.4259,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request # 162: POST    -    81 ms - myDB       - 200 - http://localhost:9029/databases/myDB/bulk_docs,
+2016-01-18 12:58:48.4499,Raven.Database.Indexing.WorkContext,Debug,myDB,"No work was found, workerWorkCounter: 2, for: ReducingExecuter, will wait for additional work",
+2016-01-18 12:58:48.4499,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,myDB,"Document with key 'clients/1' was found, etag: 01000000-0000-0001-0000-000000000001",
+2016-01-18 12:58:48.4499,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request # 163: GET     -    24 ms - myDB       - 200 - http://localhost:9029/databases/myDB/stats,
+2016-01-18 12:58:48.4499,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request # 164: POST    -     8 ms - myDB       - 200 - http://localhost:9029/databases/myDB/queries,
+2016-01-18 12:58:48.4499,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,	clients/1,
+2016-01-18 12:58:48.5229,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,myDB,Found a total of 1 documents that requires indexing since etag: 00000000-0000-0000-0000-000000000000: (clients/1),
+2016-01-18 12:58:48.5559,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,myDB,"After read triggers executed, 1 documents remained",
+2016-01-18 12:58:48.5619,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,myDB,"Going to index 1 documents in IndexId: 1, LastIndexedEtag: 00000000-0000-0000-0000-000000000000: (clients/1)",
+2016-01-18 12:58:48.5619,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,myDB,Indexing 1 documents for index: Raven/DocumentsByEntityName. (clients/1),
+2016-01-18 12:58:48.7039,Raven.Database.Indexing.Index.Indexing,Debug,myDB,"Indexing on clients/1 result in index 1 gave document: 	__document_id IS: clients/1
+	Tag I-: clients
+	LastModified I-: 2016-01-18T17:58:48.4049383Z
+	LastModifiedTicks I-: 635887367284049383
+",
+2016-01-18 12:58:48.8529,Raven.Database.Indexing.Index.Indexing,Debug,myDB,Indexed 1 documents for 1,
+2016-01-18 12:58:48.8549,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,myDB,"After indexing 1 documents, the new last etag for is: 01000000-0000-0001-0000-000000000001 for Raven/DocumentsByEntityName",
+2016-01-18 12:58:48.8769,Raven.Database.Indexing.WorkContext,Debug,,Incremented work counter to 3 because: WORK BY IndexingExecuter,
+2016-01-18 12:58:48.8769,Raven.Database.Indexing.WorkContext,Debug,myDB,"No work was found, workerWorkCounter: 3, for: ReducingExecuter, will wait for additional work",
+2016-01-18 12:58:48.9119,Raven.Database.Indexing.WorkContext,Debug,,"No work was found, workerWorkCounter: 3, for: IndexingExecuter, will wait for additional work",
+2016-01-18 12:58:53.8664,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request # 176: GET     -    13 ms - myDB       - 200 - http://localhost:9029/databases/myDB/stats,
+2016-01-18 12:58:57.3268,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 12:59:04.2525,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request # 180: GET     -     0 ms -            - 200 - http://localhost:9029/singleAuthToken,
+2016-01-18 12:59:04.2705,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request # 182: GET     -     0 ms -            - 500 - http://localhost:9029/changes/websocket?singleUseAuthToken=c0841df3-1f65-4897-b3b0-311f888600b5&id=2GMjd&coolDownWithDataLoss=0&isMultyTenantTransport=false,
+2016-01-18 12:59:04.2705,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request # 183: GET     -     0 ms -            - 200 - http://localhost:9029/singleAuthToken,
+2016-01-18 12:59:04.2905,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request # 185: GET     -     0 ms -            - 200 - http://localhost:9029/studio-tasks/server-configs,
+2016-01-18 12:59:04.3415,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request # 186: GET     -    48 ms -            - 200 - http://localhost:9029/fs?pageSize=1024&getAdditionalData=true,
+2016-01-18 12:59:04.3485,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request # 187: GET     -    56 ms -            - 200 - http://localhost:9029/databases?pageSize=1024&getAdditionalData=true,
+2016-01-18 12:59:04.3735,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,Document with key 'Raven/StudioConfig' was not found,
+2016-01-18 12:59:04.3735,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request # 188: POST    -     0 ms -            - 200 - http://localhost:9029/queries,
+2016-01-18 12:59:04.3735,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,	Raven/StudioConfig,
+2016-01-18 12:59:04.3735,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request # 189: GET     -     0 ms -            - 200 - http://localhost:9029/build/version,
+2016-01-18 12:59:04.3785,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,Document with key 'Raven/Alerts' was not found,
+2016-01-18 12:59:04.3785,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request # 191: GET     -     0 ms -            - 200 - http://localhost:9029/license/status,
+2016-01-18 12:59:04.3785,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request # 192: POST    -     0 ms -            - 200 - http://localhost:9029/queries,
+2016-01-18 12:59:04.3785,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,	Raven/Alerts,
+2016-01-18 12:59:04.3935,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request # 193: GET     -     0 ms - myDB       - 200 - http://localhost:9029/databases/myDB/singleAuthToken,
+2016-01-18 12:59:04.3935,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request # 194: GET     -     0 ms -            - 200 - http://localhost:9029/changes/events?singleUseAuthToken=0b8b41d9-0e6f-44e8-bb0e-2ff230ef2996&id=2GMjd&coolDownWithDataLoss=0&isMultyTenantTransport=false,
+2016-01-18 12:59:04.3935,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request # 195: GET     -     7 ms - myDB       - 200 - http://localhost:9029/databases/myDB/stats,
+2016-01-18 12:59:04.4295,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request # 200: GET     -     0 ms -            - 200 - http://localhost:9029/changes/config?id=2GMjd&command=watch-prefix&value=Raven%2FDatabases%2F,
+2016-01-18 12:59:04.4405,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request # 201: GET     -     0 ms -            - 200 - http://localhost:9029/changes/config?id=2GMjd&command=watch-prefix&value=Raven%2FFileSystems%2F,
+2016-01-18 12:59:04.4405,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request # 202: GET     -     0 ms -            - 200 - http://localhost:9029/changes/config?id=2GMjd&command=watch-prefix&value=Raven%2FCounters%2F,
+2016-01-18 12:59:04.4405,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request # 203: GET     -     0 ms -            - 200 - http://localhost:9029/changes/config?id=2GMjd&command=watch-prefix&value=Raven%2FStudioConfig,
+2016-01-18 12:59:04.4595,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request # 204: GET     -     0 ms -            - 200 - http://localhost:9029/changes/config?id=2GMjd&command=watch-prefix&value=Raven%2FAlerts,
+2016-01-18 12:59:04.4595,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request # 205: GET     -     0 ms - myDB       - 200 - http://localhost:9029/databases/myDB/changes/events?singleUseAuthToken=e27ee5e5-9b62-4f25-8dfe-d955a20214c4&id=vTo5D&coolDownWithDataLoss=5000&isMultyTenantTransport=false,
+2016-01-18 12:59:04.4765,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request # 214: GET     -     0 ms - myDB       - 200 - http://localhost:9029/databases/myDB/changes/config?id=vTo5D&command=watch-docs,
+2016-01-18 12:59:04.4885,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request # 215: GET     -     0 ms - myDB       - 200 - http://localhost:9029/databases/myDB/changes/config?id=vTo5D&command=watch-indexes,
+2016-01-18 12:59:04.4885,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request # 216: GET     -     0 ms - myDB       - 200 - http://localhost:9029/databases/myDB/changes/config?id=vTo5D&command=watch-bulk-operation,
+2016-01-18 12:59:04.5845,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request # 262: GET     -   178 ms -            - 200 - http://localhost:9029/studio-tasks/latest-server-build-version?stableOnly=true&min=3000&max=3599,
+2016-01-18 12:59:05.0015,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 12:59:05.2896,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,myDB,"Document with key 'clients/1' was found, etag: 01000000-0000-0001-0000-000000000001",
+2016-01-18 12:59:05.2896,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request # 285: POST    -   569 ms - myDB       - 200 - http://localhost:9029/databases/myDB/queries,
+2016-01-18 12:59:05.2896,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,	clients/1,
+2016-01-18 12:59:27.3428,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 12:59:35.0175,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 12:59:37.5458,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request # 297: GET     -     0 ms -            - 200 - http://localhost:9029/changes/config?id=2GMjd&command=unwatch-prefix&value=Raven%2FDatabases%2F,
+2016-01-18 12:59:37.5458,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request # 298: GET     -     0 ms -            - 200 - http://localhost:9029/changes/config?id=2GMjd&command=unwatch-prefix&value=Raven%2FFileSystems%2F,
+2016-01-18 12:59:37.5458,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request # 299: GET     -     0 ms -            - 200 - http://localhost:9029/changes/config?id=2GMjd&command=unwatch-prefix&value=Raven%2FCounters%2F,
+2016-01-18 12:59:37.5458,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request # 300: GET     -     0 ms -            - 200 - http://localhost:9029/changes/config?id=2GMjd&command=unwatch-prefix&value=Raven%2FStudioConfig,
+2016-01-18 12:59:37.5638,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request # 301: GET     -     0 ms -            - 200 - http://localhost:9029/changes/config?id=2GMjd&command=unwatch-prefix&value=Raven%2FAlerts,
+2016-01-18 12:59:37.5638,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request # 302: GET     -     1 ms -            - 200 - http://localhost:9029/changes/config?id=2GMjd&command=disconnect,
+2016-01-18 12:59:37.5768,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request # 303: GET     -     0 ms - myDB       - 200 - http://localhost:9029/databases/myDB/changes/config?id=vTo5D&command=unwatch-docs,
+2016-01-18 12:59:37.5768,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request # 304: GET     -     0 ms - myDB       - 200 - http://localhost:9029/databases/myDB/changes/config?id=vTo5D&command=unwatch-indexes,
+2016-01-18 12:59:37.5768,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request # 305: GET     -     0 ms - myDB       - 200 - http://localhost:9029/databases/myDB/changes/config?id=vTo5D&command=unwatch-bulk-operation,
+2016-01-18 12:59:37.5968,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,myDB,"Document with key 'clients/1' was found, etag: 01000000-0000-0001-0000-000000000001",
+2016-01-18 12:59:37.5968,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request # 306: GET     -     0 ms - myDB       - 200 - http://localhost:9029/databases/myDB/changes/config?id=vTo5D&command=disconnect,
+2016-01-18 12:59:37.5968,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request # 307: GET     -     0 ms - myDB       - 200 - http://localhost:9029/databases/myDB/docs/clients/1,
+2016-01-18 12:59:52.4873,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,myDB,"	PUT clients/1
+",
+2016-01-18 12:59:52.4913,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,myDB,"Inserted a new document with key 'clients/1', update: True, ",
+2016-01-18 12:59:52.4913,Raven.Database.DocumentDatabase,Debug,myDB,Put document clients/1 with etag 01000000-0000-0001-0000-000000000002,
+2016-01-18 12:59:52.4913,Raven.Database.Indexing.WorkContext,Debug,myDB,Incremented work counter to 4 because: PUT clients/1,
+2016-01-18 12:59:52.4913,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request # 308: POST    -     8 ms - myDB       - 200 - http://localhost:9029/databases/myDB/bulk_docs,
+2016-01-18 12:59:52.5083,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,myDB,"Document with key 'clients/1' was found, etag: 01000000-0000-0001-0000-000000000002",
+2016-01-18 12:59:52.5083,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request # 309: POST    -     2 ms - myDB       - 200 - http://localhost:9029/databases/myDB/queries,
+2016-01-18 12:59:52.5083,Raven.Database.Indexing.WorkContext,Debug,myDB,"No work was found, workerWorkCounter: 4, for: ReducingExecuter, will wait for additional work",
+2016-01-18 12:59:52.5083,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,	clients/1,
+2016-01-18 12:59:52.5083,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,myDB,Found a total of 1 documents that requires indexing since etag: 01000000-0000-0001-0000-000000000001: (clients/1),
+2016-01-18 12:59:52.5083,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request # 310: GET     -    15 ms - myDB       - 200 - http://localhost:9029/databases/myDB/stats,
+2016-01-18 12:59:52.5083,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,myDB,"After read triggers executed, 1 documents remained",
+2016-01-18 12:59:52.5083,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,myDB,"Going to index 1 documents in IndexId: 1, LastIndexedEtag: 01000000-0000-0001-0000-000000000001: (clients/1)",
+2016-01-18 12:59:52.5083,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,myDB,Indexing 1 documents for index: Raven/DocumentsByEntityName. (clients/1),
+2016-01-18 12:59:52.5293,Raven.Database.Indexing.Index.Indexing,Debug,myDB,"Indexing on clients/1 result in index 1 gave document: 	__document_id IS: clients/1
+	Tag I-: clients
+	LastModified I-: 2016-01-18T17:59:52.4913463Z
+	LastModifiedTicks I-: 635887367924913463
+",
+2016-01-18 12:59:52.5793,Raven.Database.Indexing.Index.Indexing,Debug,myDB,Indexed 1 documents for 1,
+2016-01-18 12:59:52.5793,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,myDB,"After indexing 1 documents, the new last etag for is: 01000000-0000-0001-0000-000000000002 for Raven/DocumentsByEntityName",
+2016-01-18 12:59:52.5793,Raven.Database.Indexing.WorkContext,Debug,,Incremented work counter to 5 because: WORK BY IndexingExecuter,
+2016-01-18 12:59:52.5843,Raven.Database.Indexing.WorkContext,Debug,myDB,"No work was found, workerWorkCounter: 5, for: ReducingExecuter, will wait for additional work",
+2016-01-18 12:59:52.6073,Raven.Database.Indexing.WorkContext,Debug,,"No work was found, workerWorkCounter: 5, for: IndexingExecuter, will wait for additional work",
+2016-01-18 12:59:55.2686,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,myDB,"Document with key 'clients/1' was found, etag: 01000000-0000-0001-0000-000000000002",
+2016-01-18 12:59:55.2686,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,myDB,"Document with key 'clients/1' was found, etag: 01000000-0000-0001-0000-000000000002",
+2016-01-18 12:59:55.2686,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request # 322: GET     -     4 ms - myDB       - 200 - http://localhost:9029/databases/myDB/docs/clients/1,
+2016-01-18 12:59:57.3578,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 12:59:57.5908,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request # 323: GET     -     3 ms - myDB       - 200 - http://localhost:9029/databases/myDB/stats,
+2016-01-18 13:00:05.0336,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:00:27.3738,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:00:35.0496,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:00:57.3898,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:01:05.0656,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:01:27.4058,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:01:35.0816,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:01:57.4218,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:02:05.0976,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:02:27.4378,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:02:35.1136,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:02:57.4538,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:03:05.1296,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:03:27.4698,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:03:35.1446,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:03:57.4848,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:04:05.1606,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:04:27.5008,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:04:35.1776,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:04:57.5168,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:05:05.1926,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:05:27.5328,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:05:35.2086,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:05:57.5488,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:06:05.2246,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:06:27.5648,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:06:33.0804,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 1, for: ReducingExecuter, will wait for additional work",
+2016-01-18 13:06:33.0804,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 1, for: IndexingExecuter, will wait for additional work",
+2016-01-18 13:06:35.2406,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:06:57.5808,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:07:05.2566,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:07:27.5968,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:07:35.2716,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:07:57.6118,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:08:05.2876,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:08:27.6278,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:08:35.3036,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:08:57.6438,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:09:05.3196,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:09:27.6598,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:09:35.3356,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:09:52.6133,Raven.Database.Indexing.WorkContext,Debug,myDB,"No work was found, workerWorkCounter: 5, for: ReducingExecuter, will wait for additional work",
+2016-01-18 13:09:52.6383,Raven.Database.Indexing.WorkContext,Debug,,"No work was found, workerWorkCounter: 5, for: IndexingExecuter, will wait for additional work",
+2016-01-18 13:09:57.6758,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:10:05.3516,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:10:25.4206,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,myDB,"Document with key 'clients/1' was found, etag: 01000000-0000-0001-0000-000000000002",
+2016-01-18 13:10:25.4206,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request # 324: GET     -    15 ms - myDB       - 200 - http://localhost:9029/Databases/myDB/docs/clients/1,
+2016-01-18 13:10:27.6918,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:10:35.3676,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:10:57.7078,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:11:05.3876,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:11:23.7544,Raven.Database.DocumentDatabase,Debug,<system>,Start loading the following database: <system>,
+2016-01-18 13:11:24.3185,Raven.Database.Impl.DocumentCacher,Info,<system>,"MemoryCache Settings:
+  PhysicalMemoryLimit = 99
+  CacheMemoryLimit    = 5345640448
+  PollingInterval     = 00:02:00",
+2016-01-18 13:11:24.3355,Raven.Database.Storage.Esent.StorageConfigurator,Info,<system>,"Esent Settings:
+  MaxVerPages      = 32768
+  CacheSizeMax     = 262144
+  DatabasePageSize = 4096",
+2016-01-18 13:11:24.3355,Raven.Storage.Esent.TransactionalStorage,Info,<system>,"Esent Settings:
+  MaxVerPages      = 32768
+  CacheSizeMax     = 262144
+  DatabasePageSize = 4096",
+2016-01-18 13:11:26.0456,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,Document with key 'Raven/Backup/Status' was not found,
+2016-01-18 13:11:26.0856,Raven.Database.DocumentDatabase,Debug,,Finish loading the following database: <system>,
+2016-01-18 13:11:26.0856,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,,Document with key 'Raven/Counters/Enabled' was not found,
+2016-01-18 13:11:26.1017,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 0, for: ReducingExecuter, will wait for additional work",
+2016-01-18 13:11:26.1017,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,,Document with key 'Raven/Authorization/WindowsSettings' was not found,
+2016-01-18 13:11:26.1017,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 0, for: IndexingExecuter, will wait for additional work",
+2016-01-18 13:11:26.8777,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,,"Document with key 'Raven/Databases/myDB' was found, etag: 01000000-0000-0001-0000-000000000001",
+2016-01-18 13:11:26.9057,Raven.Database.DocumentDatabase,Debug,myDB,Start loading the following database: myDB,
+2016-01-18 13:11:26.9857,Raven.Database.Impl.DocumentCacher,Info,myDB,"MemoryCache Settings:
+  PhysicalMemoryLimit = 99
+  CacheMemoryLimit    = 5345640448
+  PollingInterval     = 00:02:00",
+2016-01-18 13:11:26.9857,Raven.Database.Storage.Esent.StorageConfigurator,Info,myDB,"Esent Settings:
+  MaxVerPages      = 32768
+  CacheSizeMax     = 262144
+  DatabasePageSize = 4096",
+2016-01-18 13:11:26.9857,Raven.Storage.Esent.TransactionalStorage,Info,myDB,"Esent Settings:
+  MaxVerPages      = 32768
+  CacheSizeMax     = 262144
+  DatabasePageSize = 4096",
+2016-01-18 13:11:26.9677,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #   1: GET     -   105 ms -            - 200 - http://localhost:9029/singleAuthToken,
+2016-01-18 13:11:27.0477,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #   2: GET     -    22 ms -            - 200 - http://localhost:9029/changes/events?singleUseAuthToken=35c02954-87fd-4d9e-9026-d60fbea93007&id=U7s1V&coolDownWithDataLoss=0&isMultyTenantTransport=false,
+2016-01-18 13:11:27.0797,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,Document with key 'Raven/StudioConfig' was not found,
+2016-01-18 13:11:27.0797,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #   3: GET     -    10 ms -            - 200 - http://localhost:9029/license/status,
+2016-01-18 13:11:27.1058,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #   4: GET     -    23 ms -            - 200 - http://localhost:9029/build/version,
+2016-01-18 13:11:27.1148,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #   5: POST    -    51 ms -            - 200 - http://localhost:9029/queries,
+2016-01-18 13:11:27.1148,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,	Raven/StudioConfig,
+2016-01-18 13:11:27.1368,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #   7: GET     -     6 ms -            - 200 - http://localhost:9029/counterStorage/conterStorages?pageSize=1024,
+2016-01-18 13:11:27.1458,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #   8: GET     -    36 ms -            - 200 - http://localhost:9029/fs?pageSize=1024&getAdditionalData=true,
+2016-01-18 13:11:27.1458,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #   9: GET     -    14 ms -            - 200 - http://localhost:9029/changes/config?id=U7s1V&command=watch-prefix&value=Raven%2FCounters%2F,
+2016-01-18 13:11:27.1458,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  10: GET     -    13 ms -            - 200 - http://localhost:9029/changes/config?id=U7s1V&command=watch-prefix&value=Raven%2FDatabases%2F,
+2016-01-18 13:11:27.1458,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  11: GET     -     5 ms -            - 200 - http://localhost:9029/changes/config?id=U7s1V&command=watch-prefix&value=Raven%2FStudioConfig,
+2016-01-18 13:11:27.1458,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  13: GET     -     0 ms -            - 200 - http://localhost:9029/changes/config?id=U7s1V&command=watch-prefix&value=Raven%2FFileSystems%2F,
+2016-01-18 13:11:27.1458,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  12: GET     -     0 ms -            - 200 - http://localhost:9029/changes/config?id=U7s1V&command=watch-prefix&value=Raven%2FAlerts,
+2016-01-18 13:11:27.1758,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  14: GET     -    68 ms -            - 304 - http://localhost:9029/databases?pageSize=1024&getAdditionalData=true,
+2016-01-18 13:11:27.3488,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  15: GET     -   187 ms -            - 200 - http://localhost:9029/studio-tasks/latest-server-build-version?stableOnly=true&min=3000&max=3599,
+2016-01-18 13:11:28.9639,Raven.Database.Storage.IndexDefinitionStorage,Info,myDB,"New index Raven/DocumentsByEntityName:
+using Raven.Abstractions;
+using Raven.Database.Linq;
+using System.Linq;
+using System.Collections.Generic;
+using System.Collections;
+using System;
+using Raven.Database.Linq.PrivateExtensions;
+using Lucene.Net.Documents;
+using System.Globalization;
+using System.Text.RegularExpressions;
+using Raven.Database.Indexing;
+
+public class Index_Raven_DocumentsByEntityName : Raven.Database.Linq.AbstractViewGenerator
+{
+	public Index_Raven_DocumentsByEntityName()
+	{
+		this.ViewText = @""from doc in docs 
+select new 
+{ 
+	Tag = doc[""""@metadata""""][""""Raven-Entity-Name""""], 
+	LastModified = (DateTime)doc[""""@metadata""""][""""Last-Modified""""],
+	LastModifiedTicks = ((DateTime)doc[""""@metadata""""][""""Last-Modified""""]).Ticks 
+};"";
+		this.AddMapDefinition(docs => 
+			from doc in ((IEnumerable<dynamic>)docs)
+			select new {
+				Tag = doc[""@metadata""][""Raven-Entity-Name""],
+				LastModified = (DateTime)doc[""@metadata""][""Last-Modified""],
+				LastModifiedTicks = ((DateTime)doc[""@metadata""][""Last-Modified""]).Ticks,
+				__document_id = doc.__document_id
+			});
+		this.AddField(""Tag"");
+		this.AddField(""LastModified"");
+		this.AddField(""LastModifiedTicks"");
+		this.AddField(""__document_id"");
+		this.AddQueryParameterForMap(""Ticks"");
+		this.AddQueryParameterForMap(""__document_id"");
+		this.AddQueryParameterForReduce(""Ticks"");
+		this.AddQueryParameterForReduce(""__document_id"");
+	}
+}
+
+Compiled to:
+using Raven.Abstractions;
+using Raven.Database.Linq;
+using System.Linq;
+using System.Collections.Generic;
+using System.Collections;
+using System;
+using Raven.Database.Linq.PrivateExtensions;
+using Lucene.Net.Documents;
+using System.Globalization;
+using System.Text.RegularExpressions;
+using Raven.Database.Indexing;
+
+public class Index_Raven_DocumentsByEntityName : Raven.Database.Linq.AbstractViewGenerator
+{
+	public Index_Raven_DocumentsByEntityName()
+	{
+		this.ViewText = @""from doc in docs 
+select new 
+{ 
+	Tag = doc[""""@metadata""""][""""Raven-Entity-Name""""], 
+	LastModified = (DateTime)doc[""""@metadata""""][""""Last-Modified""""],
+	LastModifiedTicks = ((DateTime)doc[""""@metadata""""][""""Last-Modified""""]).Ticks 
+};"";
+		this.AddMapDefinition(docs => 
+			from doc in ((IEnumerable<dynamic>)docs)
+			select new {
+				Tag = doc[""@metadata""][""Raven-Entity-Name""],
+				LastModified = (DateTime)doc[""@metadata""][""Last-Modified""],
+				LastModifiedTicks = ((DateTime)doc[""@metadata""][""Last-Modified""]).Ticks,
+				__document_id = doc.__document_id
+			});
+		this.AddField(""Tag"");
+		this.AddField(""LastModified"");
+		this.AddField(""LastModifiedTicks"");
+		this.AddField(""__document_id"");
+		this.AddQueryParameterForMap(""Ticks"");
+		this.AddQueryParameterForMap(""__document_id"");
+		this.AddQueryParameterForReduce(""Ticks"");
+		this.AddQueryParameterForReduce(""__document_id"");
+	}
+}
+",
+2016-01-18 13:11:28.9729,Raven.Database.Indexing.IndexStorage.Startup,Debug,myDB,Loading saved index Raven/DocumentsByEntityName,
+2016-01-18 13:11:28.9909,Raven.Database.Indexing.Index.Indexing,Debug,myDB,Creating index for 1,
+2016-01-18 13:11:29.0529,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,myDB,Document with key 'Raven/Backup/Status' was not found,
+2016-01-18 13:11:29.0719,Raven.Database.DocumentDatabase,Debug,,Finish loading the following database: myDB,
+2016-01-18 13:11:29.0719,Raven.Database.Indexing.WorkContext,Debug,myDB,"No work was found, workerWorkCounter: 0, for: ReducingExecuter, will wait for additional work",
+2016-01-18 13:11:29.0719,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,"Request #  16: GET     - 2,212 ms - myDB       - 200 - http://localhost:9029/databases/myDB/singleAuthToken",
+2016-01-18 13:11:29.0719,Raven.Database.Indexing.WorkContext,Debug,myDB,"No work was found, workerWorkCounter: 0, for: IndexingExecuter, will wait for additional work",
+2016-01-18 13:11:29.0949,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request #  17: GET     -     0 ms - myDB       - 200 - http://localhost:9029/databases/myDB/changes/events?singleUseAuthToken=9a4e9fd8-c438-4acf-82ad-c206fe310e0e&id=JoLNh&coolDownWithDataLoss=5000&isMultyTenantTransport=false,
+2016-01-18 13:11:29.1010,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request #  18: GET     -     0 ms - myDB       - 200 - http://localhost:9029/databases/myDB/changes/config?id=JoLNh&command=watch-docs,
+2016-01-18 13:11:29.1010,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request #  19: GET     -     0 ms - myDB       - 200 - http://localhost:9029/databases/myDB/changes/config?id=JoLNh&command=watch-bulk-operation,
+2016-01-18 13:11:29.1010,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request #  20: GET     -     0 ms - myDB       - 200 - http://localhost:9029/databases/myDB/changes/config?id=JoLNh&command=watch-indexes,
+2016-01-18 13:11:39.1500,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,myDB,"Document with key 'clients/1' was found, etag: 01000000-0000-0001-0000-000000000002",
+2016-01-18 13:11:39.1500,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request #  21: GET     -    26 ms - myDB       - 200 - http://localhost:9029/Databases/myDB/docs/clients/1,
+2016-01-18 13:11:47.3348,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,myDB,"Document with key 'clients/1' was found, etag: 01000000-0000-0001-0000-000000000002",
+2016-01-18 13:11:47.3348,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request #  22: GET     -     1 ms - myDB       - 200 - http://localhost:9029/Databases/myDB/docs/clients/1,
+2016-01-18 13:11:56.0116,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:11:59.0649,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:12:26.0236,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:12:29.0809,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:12:56.0396,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:12:59.0969,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:13:26.0556,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:13:29.1130,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:13:56.0706,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:13:59.1290,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:14:12.6093,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,myDB,"Document with key 'clients/1' was found, etag: 01000000-0000-0001-0000-000000000002",
+2016-01-18 13:14:12.6093,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request #  23: GET     -     1 ms - myDB       - 200 - http://localhost:9029/Databases/myDB/docs/clients/1,
+2016-01-18 13:14:26.0866,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:14:29.1450,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:14:56.1026,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:14:59.1610,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:15:26.1186,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:15:29.1770,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:15:56.1347,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:15:59.1920,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:16:26.1507,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:16:29.2080,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:16:56.1667,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:16:59.2240,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:16:59.7130,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,myDB,"Document with key 'clients/1' was found, etag: 01000000-0000-0001-0000-000000000002",
+2016-01-18 13:16:59.7130,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request #  24: GET     -     5 ms - myDB       - 200 - http://localhost:9029/Databases/myDB/docs/clients/1,
+2016-01-18 13:17:11.5292,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,myDB,"Document with key 'clients/1' was found, etag: 01000000-0000-0001-0000-000000000002",
+2016-01-18 13:17:11.5292,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request #  25: GET     -     0 ms - myDB       - 200 - http://localhost:9029/Databases/myDB/docs/clients/1,
+2016-01-18 13:17:26.1827,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:17:29.2400,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:17:56.1977,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:17:57.3228,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,myDB,"Document with key 'clients/1' was found, etag: 01000000-0000-0001-0000-000000000002",
+2016-01-18 13:17:57.3228,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request #  26: GET     -     0 ms - myDB       - 200 - http://localhost:9029/Databases/myDB/docs/clients/1,
+2016-01-18 13:17:59.2560,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:18:26.2137,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:18:29.2720,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:18:52.3793,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,myDB,"Document with key 'clients/1' was found, etag: 01000000-0000-0001-0000-000000000002",
+2016-01-18 13:18:52.3793,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request #  27: GET     -     0 ms - myDB       - 200 - http://localhost:9029/Databases/myDB/docs/clients/1,
+2016-01-18 13:18:56.2307,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:18:59.2880,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:19:26.2457,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:19:29.3040,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:19:38.2619,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,myDB,"Document with key 'clients/1' was found, etag: 01000000-0000-0001-0000-000000000002",
+2016-01-18 13:19:38.2619,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request #  28: GET     -     0 ms - myDB       - 200 - http://localhost:9029/Databases/myDB/docs/clients/1,
+2016-01-18 13:19:44.4925,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,myDB,"Document with key 'clients/1' was found, etag: 01000000-0000-0001-0000-000000000002",
+2016-01-18 13:19:44.4925,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request #  29: GET     -     2 ms - myDB       - 200 - http://localhost:9029/Databases/myDB/docs/clients/1,
+2016-01-18 13:19:56.2617,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:19:59.3190,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:20:26.2777,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:20:29.3350,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:20:56.2937,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:20:59.3510,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:22:11.9412,Raven.Database.DocumentDatabase,Debug,<system>,Start loading the following database: <system>,
+2016-01-18 13:22:12.5073,Raven.Database.Impl.DocumentCacher,Info,<system>,"MemoryCache Settings:
+  PhysicalMemoryLimit = 99
+  CacheMemoryLimit    = 5345640448
+  PollingInterval     = 00:02:00",
+2016-01-18 13:22:12.5243,Raven.Database.Storage.Esent.StorageConfigurator,Info,<system>,"Esent Settings:
+  MaxVerPages      = 32768
+  CacheSizeMax     = 262144
+  DatabasePageSize = 4096",
+2016-01-18 13:22:12.5243,Raven.Storage.Esent.TransactionalStorage,Info,<system>,"Esent Settings:
+  MaxVerPages      = 32768
+  CacheSizeMax     = 262144
+  DatabasePageSize = 4096",
+2016-01-18 13:22:14.2315,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,Document with key 'Raven/Backup/Status' was not found,
+2016-01-18 13:22:14.2765,Raven.Database.DocumentDatabase,Debug,,Finish loading the following database: <system>,
+2016-01-18 13:22:14.2815,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,,Document with key 'Raven/Counters/Enabled' was not found,
+2016-01-18 13:22:14.2815,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,,Document with key 'Raven/Authorization/WindowsSettings' was not found,
+2016-01-18 13:22:14.2815,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 0, for: ReducingExecuter, will wait for additional work",
+2016-01-18 13:22:14.2815,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 0, for: IndexingExecuter, will wait for additional work",
+2016-01-18 13:22:15.6636,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,,"Document with key 'Raven/Databases/myDB' was found, etag: 01000000-0000-0001-0000-000000000001",
+2016-01-18 13:22:15.6866,Raven.Database.DocumentDatabase,Debug,myDB,Start loading the following database: myDB,
+2016-01-18 13:22:15.7796,Raven.Database.Impl.DocumentCacher,Info,myDB,"MemoryCache Settings:
+  PhysicalMemoryLimit = 99
+  CacheMemoryLimit    = 5345640448
+  PollingInterval     = 00:02:00",
+2016-01-18 13:22:15.7796,Raven.Database.Storage.Esent.StorageConfigurator,Info,myDB,"Esent Settings:
+  MaxVerPages      = 32768
+  CacheSizeMax     = 262144
+  DatabasePageSize = 4096",
+2016-01-18 13:22:15.7796,Raven.Storage.Esent.TransactionalStorage,Info,myDB,"Esent Settings:
+  MaxVerPages      = 32768
+  CacheSizeMax     = 262144
+  DatabasePageSize = 4096",
+2016-01-18 13:22:15.7796,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #   1: GET     -   127 ms -            - 200 - http://localhost:9029/singleAuthToken,
+2016-01-18 13:22:15.8646,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #   2: GET     -    22 ms -            - 200 - http://localhost:9029/changes/events?singleUseAuthToken=b1033489-c48a-4f00-837d-2d047c29c8de&id=U7s1V&coolDownWithDataLoss=0&isMultyTenantTransport=false,
+2016-01-18 13:22:15.8946,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #   3: GET     -     8 ms -            - 200 - http://localhost:9029/license/status,
+2016-01-18 13:22:15.9146,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,Document with key 'Raven/StudioConfig' was not found,
+2016-01-18 13:22:15.9196,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #   4: GET     -    18 ms -            - 200 - http://localhost:9029/build/version,
+2016-01-18 13:22:15.9506,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #   5: POST    -    68 ms -            - 200 - http://localhost:9029/queries,
+2016-01-18 13:22:15.9506,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,	Raven/StudioConfig,
+2016-01-18 13:22:15.9506,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #   7: GET     -     6 ms -            - 200 - http://localhost:9029/counterStorage/conterStorages?pageSize=1024,
+2016-01-18 13:22:15.9506,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #   8: GET     -    18 ms -            - 200 - http://localhost:9029/fs?pageSize=1024&getAdditionalData=true,
+2016-01-18 13:22:15.9726,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #   9: GET     -     6 ms -            - 200 - http://localhost:9029/changes/config?id=U7s1V&command=watch-prefix&value=Raven%2FStudioConfig,
+2016-01-18 13:22:15.9726,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  10: GET     -    16 ms -            - 200 - http://localhost:9029/changes/config?id=U7s1V&command=watch-prefix&value=Raven%2FCounters%2F,
+2016-01-18 13:22:15.9726,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  11: GET     -     7 ms -            - 200 - http://localhost:9029/changes/config?id=U7s1V&command=watch-prefix&value=Raven%2FDatabases%2F,
+2016-01-18 13:22:15.9726,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  12: GET     -     0 ms -            - 200 - http://localhost:9029/changes/config?id=U7s1V&command=watch-prefix&value=Raven%2FAlerts,
+2016-01-18 13:22:15.9726,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  13: GET     -     0 ms -            - 200 - http://localhost:9029/changes/config?id=U7s1V&command=watch-prefix&value=Raven%2FFileSystems%2F,
+2016-01-18 13:22:15.9926,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  14: GET     -    93 ms -            - 304 - http://localhost:9029/databases?pageSize=1024&getAdditionalData=true,
+2016-01-18 13:22:16.1797,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  15: GET     -   199 ms -            - 200 - http://localhost:9029/studio-tasks/latest-server-build-version?stableOnly=true&min=3000&max=3599,
+2016-01-18 13:22:17.5998,Raven.Database.Storage.IndexDefinitionStorage,Info,myDB,"New index Raven/DocumentsByEntityName:
+using Raven.Abstractions;
+using Raven.Database.Linq;
+using System.Linq;
+using System.Collections.Generic;
+using System.Collections;
+using System;
+using Raven.Database.Linq.PrivateExtensions;
+using Lucene.Net.Documents;
+using System.Globalization;
+using System.Text.RegularExpressions;
+using Raven.Database.Indexing;
+
+public class Index_Raven_DocumentsByEntityName : Raven.Database.Linq.AbstractViewGenerator
+{
+	public Index_Raven_DocumentsByEntityName()
+	{
+		this.ViewText = @""from doc in docs 
+select new 
+{ 
+	Tag = doc[""""@metadata""""][""""Raven-Entity-Name""""], 
+	LastModified = (DateTime)doc[""""@metadata""""][""""Last-Modified""""],
+	LastModifiedTicks = ((DateTime)doc[""""@metadata""""][""""Last-Modified""""]).Ticks 
+};"";
+		this.AddMapDefinition(docs => 
+			from doc in ((IEnumerable<dynamic>)docs)
+			select new {
+				Tag = doc[""@metadata""][""Raven-Entity-Name""],
+				LastModified = (DateTime)doc[""@metadata""][""Last-Modified""],
+				LastModifiedTicks = ((DateTime)doc[""@metadata""][""Last-Modified""]).Ticks,
+				__document_id = doc.__document_id
+			});
+		this.AddField(""Tag"");
+		this.AddField(""LastModified"");
+		this.AddField(""LastModifiedTicks"");
+		this.AddField(""__document_id"");
+		this.AddQueryParameterForMap(""Ticks"");
+		this.AddQueryParameterForMap(""__document_id"");
+		this.AddQueryParameterForReduce(""Ticks"");
+		this.AddQueryParameterForReduce(""__document_id"");
+	}
+}
+
+Compiled to:
+using Raven.Abstractions;
+using Raven.Database.Linq;
+using System.Linq;
+using System.Collections.Generic;
+using System.Collections;
+using System;
+using Raven.Database.Linq.PrivateExtensions;
+using Lucene.Net.Documents;
+using System.Globalization;
+using System.Text.RegularExpressions;
+using Raven.Database.Indexing;
+
+public class Index_Raven_DocumentsByEntityName : Raven.Database.Linq.AbstractViewGenerator
+{
+	public Index_Raven_DocumentsByEntityName()
+	{
+		this.ViewText = @""from doc in docs 
+select new 
+{ 
+	Tag = doc[""""@metadata""""][""""Raven-Entity-Name""""], 
+	LastModified = (DateTime)doc[""""@metadata""""][""""Last-Modified""""],
+	LastModifiedTicks = ((DateTime)doc[""""@metadata""""][""""Last-Modified""""]).Ticks 
+};"";
+		this.AddMapDefinition(docs => 
+			from doc in ((IEnumerable<dynamic>)docs)
+			select new {
+				Tag = doc[""@metadata""][""Raven-Entity-Name""],
+				LastModified = (DateTime)doc[""@metadata""][""Last-Modified""],
+				LastModifiedTicks = ((DateTime)doc[""@metadata""][""Last-Modified""]).Ticks,
+				__document_id = doc.__document_id
+			});
+		this.AddField(""Tag"");
+		this.AddField(""LastModified"");
+		this.AddField(""LastModifiedTicks"");
+		this.AddField(""__document_id"");
+		this.AddQueryParameterForMap(""Ticks"");
+		this.AddQueryParameterForMap(""__document_id"");
+		this.AddQueryParameterForReduce(""Ticks"");
+		this.AddQueryParameterForReduce(""__document_id"");
+	}
+}
+",
+2016-01-18 13:22:17.6078,Raven.Database.Indexing.IndexStorage.Startup,Debug,myDB,Loading saved index Raven/DocumentsByEntityName,
+2016-01-18 13:22:17.6298,Raven.Database.Indexing.Index.Indexing,Debug,myDB,Creating index for 1,
+2016-01-18 13:22:17.6938,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,myDB,Document with key 'Raven/Backup/Status' was not found,
+2016-01-18 13:22:17.7008,Raven.Database.DocumentDatabase,Debug,,Finish loading the following database: myDB,
+2016-01-18 13:22:17.7008,Raven.Database.Indexing.WorkContext,Debug,myDB,"No work was found, workerWorkCounter: 0, for: ReducingExecuter, will wait for additional work",
+2016-01-18 13:22:17.7008,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,"Request #  16: GET     - 2,047 ms - myDB       - 200 - http://localhost:9029/databases/myDB/singleAuthToken",
+2016-01-18 13:22:17.7008,Raven.Database.Indexing.WorkContext,Debug,myDB,"No work was found, workerWorkCounter: 0, for: IndexingExecuter, will wait for additional work",
+2016-01-18 13:22:17.7198,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request #  17: GET     -     0 ms - myDB       - 200 - http://localhost:9029/databases/myDB/changes/events?singleUseAuthToken=252238dc-e234-494a-a08d-7e5cf4a2444b&id=JoLNh&coolDownWithDataLoss=5000&isMultyTenantTransport=false,
+2016-01-18 13:22:17.7328,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request #  18: GET     -     0 ms - myDB       - 200 - http://localhost:9029/databases/myDB/changes/config?id=JoLNh&command=watch-bulk-operation,
+2016-01-18 13:22:17.7328,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request #  19: GET     -     0 ms - myDB       - 200 - http://localhost:9029/databases/myDB/changes/config?id=JoLNh&command=watch-docs,
+2016-01-18 13:22:17.7328,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request #  20: GET     -     1 ms - myDB       - 200 - http://localhost:9029/databases/myDB/changes/config?id=JoLNh&command=watch-indexes,
+2016-01-18 13:22:44.1925,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:22:44.2935,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,myDB,"Document with key 'clients/1' was found, etag: 01000000-0000-0001-0000-000000000002",
+2016-01-18 13:22:44.2935,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request #  21: GET     -     7 ms - myDB       - 200 - http://localhost:9029/Databases/myDB/docs/clients/1,
+2016-01-18 13:22:47.6988,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:22:49.6810,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,myDB,"Document with key 'clients/1' was found, etag: 01000000-0000-0001-0000-000000000002",
+2016-01-18 13:22:49.6810,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request #  22: GET     -     0 ms - myDB       - 200 - http://localhost:9029/Databases/myDB/docs/clients/1,
+2016-01-18 13:22:59.1860,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,myDB,"Document with key 'clients/1' was found, etag: 01000000-0000-0001-0000-000000000002",
+2016-01-18 13:22:59.1860,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request #  23: GET     -     0 ms - myDB       - 200 - http://localhost:9029/Databases/myDB/docs/clients/1,
+2016-01-18 13:23:14.2045,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:23:17.7148,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:23:44.2205,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:23:47.7298,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:24:14.2355,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:24:17.7478,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:24:44.2515,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:24:47.7618,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:25:14.2675,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:25:17.7778,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:25:44.2835,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:25:47.7938,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:26:14.2995,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:26:17.8098,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:26:44.3155,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:26:47.8558,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:27:14.3315,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:27:17.8568,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:27:44.3475,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:27:47.8728,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:28:14.3645,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:28:17.8888,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:28:44.3785,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:28:47.9048,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:29:14.3945,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:29:17.9208,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:29:44.4105,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:29:47.9378,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:30:14.4265,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:30:17.9518,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:30:44.4425,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:30:47.9678,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:31:14.4635,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:31:17.9838,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:31:44.4745,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:31:47.9998,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:32:14.3205,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 0, for: ReducingExecuter, will wait for additional work",
+2016-01-18 13:32:14.3205,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 0, for: IndexingExecuter, will wait for additional work",
+2016-01-18 13:32:14.4895,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:32:17.7288,Raven.Database.Indexing.WorkContext,Debug,myDB,"No work was found, workerWorkCounter: 0, for: ReducingExecuter, will wait for additional work",
+2016-01-18 13:32:17.7458,Raven.Database.Indexing.WorkContext,Debug,myDB,"No work was found, workerWorkCounter: 0, for: IndexingExecuter, will wait for additional work",
+2016-01-18 13:32:18.0158,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:32:44.5055,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:32:48.0318,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:33:14.5215,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:33:18.0518,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:33:44.5375,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:33:48.0638,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:34:14.5585,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:34:18.0788,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:34:44.5695,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:34:48.0948,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:35:14.5855,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:35:18.1108,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:35:44.6015,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:35:48.1268,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:36:14.6165,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:36:18.1428,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:36:44.6325,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:36:48.1588,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:37:14.6485,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:37:18.1768,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:37:44.6645,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:37:48.1908,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:38:14.6845,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:38:18.2058,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:38:44.6965,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:38:48.2218,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:39:14.7125,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:39:18.2378,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:39:44.7285,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:39:48.2538,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:40:14.7435,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:40:18.2719,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:40:44.7595,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:40:48.2859,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:41:14.7755,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:41:18.3069,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:41:44.8075,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:41:48.3179,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:42:14.3505,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 0, for: ReducingExecuter, will wait for additional work",
+2016-01-18 13:42:14.3555,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 0, for: IndexingExecuter, will wait for additional work",
+2016-01-18 13:42:14.8255,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:42:17.7548,Raven.Database.Indexing.WorkContext,Debug,myDB,"No work was found, workerWorkCounter: 0, for: ReducingExecuter, will wait for additional work",
+2016-01-18 13:42:17.8418,Raven.Database.Indexing.WorkContext,Debug,myDB,"No work was found, workerWorkCounter: 0, for: IndexingExecuter, will wait for additional work",
+2016-01-18 13:42:18.3329,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:42:44.8385,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:42:48.3489,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:43:14.8545,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:43:18.3649,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:43:44.8705,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:43:48.3809,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:44:14.8865,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:44:18.3979,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:44:44.9025,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:44:48.4129,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:45:14.9205,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:45:18.4289,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:45:44.9375,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:45:48.4449,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:46:14.9505,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:46:18.4599,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:46:44.9655,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:46:48.4759,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:47:14.9815,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:47:18.4919,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:53:40.4501,Raven.Database.DocumentDatabase,Debug,<system>,Start loading the following database: <system>,
+2016-01-18 13:53:41.1051,Raven.Database.Impl.DocumentCacher,Info,<system>,"MemoryCache Settings:
+  PhysicalMemoryLimit = 99
+  CacheMemoryLimit    = 5345640448
+  PollingInterval     = 00:02:00",
+2016-01-18 13:53:41.1211,Raven.Database.Storage.Esent.StorageConfigurator,Info,<system>,"Esent Settings:
+  MaxVerPages      = 32768
+  CacheSizeMax     = 262144
+  DatabasePageSize = 4096",
+2016-01-18 13:53:41.1211,Raven.Storage.Esent.TransactionalStorage,Info,<system>,"Esent Settings:
+  MaxVerPages      = 32768
+  CacheSizeMax     = 262144
+  DatabasePageSize = 4096",
+2016-01-18 13:53:42.5443,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,Document with key 'Raven/Backup/Status' was not found,
+2016-01-18 13:53:42.5803,Raven.Database.DocumentDatabase,Debug,,Finish loading the following database: <system>,
+2016-01-18 13:53:42.5863,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,,Document with key 'Raven/Counters/Enabled' was not found,
+2016-01-18 13:53:42.5863,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 0, for: ReducingExecuter, will wait for additional work",
+2016-01-18 13:53:42.5863,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,,Document with key 'Raven/Authorization/WindowsSettings' was not found,
+2016-01-18 13:53:42.5863,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 0, for: IndexingExecuter, will wait for additional work",
+2016-01-18 13:53:45.7936,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,,"Document with key 'Raven/Databases/myDB' was found, etag: 01000000-0000-0001-0000-000000000001",
+2016-01-18 13:53:45.8146,Raven.Database.DocumentDatabase,Debug,myDB,Start loading the following database: myDB,
+2016-01-18 13:53:45.8886,Raven.Database.Impl.DocumentCacher,Info,myDB,"MemoryCache Settings:
+  PhysicalMemoryLimit = 99
+  CacheMemoryLimit    = 5345640448
+  PollingInterval     = 00:02:00",
+2016-01-18 13:53:45.8886,Raven.Database.Storage.Esent.StorageConfigurator,Info,myDB,"Esent Settings:
+  MaxVerPages      = 32768
+  CacheSizeMax     = 262144
+  DatabasePageSize = 4096",
+2016-01-18 13:53:45.8886,Raven.Storage.Esent.TransactionalStorage,Info,myDB,"Esent Settings:
+  MaxVerPages      = 32768
+  CacheSizeMax     = 262144
+  DatabasePageSize = 4096",
+2016-01-18 13:53:45.9146,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #   1: GET     -   137 ms -            - 200 - http://localhost:9029/singleAuthToken,
+2016-01-18 13:53:46.0076,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #   2: GET     -    26 ms -            - 200 - http://localhost:9029/changes/events?singleUseAuthToken=bf8871f4-dac9-4794-b671-dcc0eda88142&id=U7s1V&coolDownWithDataLoss=0&isMultyTenantTransport=false,
+2016-01-18 13:53:46.0526,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #   3: GET     -    11 ms -            - 200 - http://localhost:9029/license/status,
+2016-01-18 13:53:46.0686,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #   4: GET     -    12 ms -            - 200 - http://localhost:9029/build/version,
+2016-01-18 13:53:46.0826,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,Document with key 'Raven/StudioConfig' was not found,
+2016-01-18 13:53:46.1126,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #   5: POST    -    88 ms -            - 200 - http://localhost:9029/queries,
+2016-01-18 13:53:46.1126,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,	Raven/StudioConfig,
+2016-01-18 13:53:46.1126,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #   7: GET     -     5 ms -            - 200 - http://localhost:9029/counterStorage/conterStorages?pageSize=1024,
+2016-01-18 13:53:46.1326,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #   8: GET     -    50 ms -            - 200 - http://localhost:9029/fs?pageSize=1024&getAdditionalData=true,
+2016-01-18 13:53:46.1446,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #   9: GET     -    18 ms -            - 200 - http://localhost:9029/changes/config?id=U7s1V&command=watch-prefix&value=Raven%2FDatabases%2F,
+2016-01-18 13:53:46.1446,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  10: GET     -    23 ms -            - 200 - http://localhost:9029/changes/config?id=U7s1V&command=watch-prefix&value=Raven%2FCounters%2F,
+2016-01-18 13:53:46.1616,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  11: GET     -     0 ms -            - 200 - http://localhost:9029/changes/config?id=U7s1V&command=watch-prefix&value=Raven%2FFileSystems%2F,
+2016-01-18 13:53:46.1616,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  12: GET     -     0 ms -            - 200 - http://localhost:9029/changes/config?id=U7s1V&command=watch-prefix&value=Raven%2FStudioConfig,
+2016-01-18 13:53:46.1616,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  13: GET     -     0 ms -            - 200 - http://localhost:9029/changes/config?id=U7s1V&command=watch-prefix&value=Raven%2FAlerts,
+2016-01-18 13:53:46.1706,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  14: GET     -   100 ms -            - 304 - http://localhost:9029/databases?pageSize=1024&getAdditionalData=true,
+2016-01-18 13:53:46.3637,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  15: GET     -   191 ms -            - 200 - http://localhost:9029/studio-tasks/latest-server-build-version?stableOnly=true&min=3000&max=3599,
+2016-01-18 13:53:47.6898,Raven.Database.Storage.IndexDefinitionStorage,Info,myDB,"New index Raven/DocumentsByEntityName:
+using Raven.Abstractions;
+using Raven.Database.Linq;
+using System.Linq;
+using System.Collections.Generic;
+using System.Collections;
+using System;
+using Raven.Database.Linq.PrivateExtensions;
+using Lucene.Net.Documents;
+using System.Globalization;
+using System.Text.RegularExpressions;
+using Raven.Database.Indexing;
+
+public class Index_Raven_DocumentsByEntityName : Raven.Database.Linq.AbstractViewGenerator
+{
+	public Index_Raven_DocumentsByEntityName()
+	{
+		this.ViewText = @""from doc in docs 
+select new 
+{ 
+	Tag = doc[""""@metadata""""][""""Raven-Entity-Name""""], 
+	LastModified = (DateTime)doc[""""@metadata""""][""""Last-Modified""""],
+	LastModifiedTicks = ((DateTime)doc[""""@metadata""""][""""Last-Modified""""]).Ticks 
+};"";
+		this.AddMapDefinition(docs => 
+			from doc in ((IEnumerable<dynamic>)docs)
+			select new {
+				Tag = doc[""@metadata""][""Raven-Entity-Name""],
+				LastModified = (DateTime)doc[""@metadata""][""Last-Modified""],
+				LastModifiedTicks = ((DateTime)doc[""@metadata""][""Last-Modified""]).Ticks,
+				__document_id = doc.__document_id
+			});
+		this.AddField(""Tag"");
+		this.AddField(""LastModified"");
+		this.AddField(""LastModifiedTicks"");
+		this.AddField(""__document_id"");
+		this.AddQueryParameterForMap(""Ticks"");
+		this.AddQueryParameterForMap(""__document_id"");
+		this.AddQueryParameterForReduce(""Ticks"");
+		this.AddQueryParameterForReduce(""__document_id"");
+	}
+}
+
+Compiled to:
+using Raven.Abstractions;
+using Raven.Database.Linq;
+using System.Linq;
+using System.Collections.Generic;
+using System.Collections;
+using System;
+using Raven.Database.Linq.PrivateExtensions;
+using Lucene.Net.Documents;
+using System.Globalization;
+using System.Text.RegularExpressions;
+using Raven.Database.Indexing;
+
+public class Index_Raven_DocumentsByEntityName : Raven.Database.Linq.AbstractViewGenerator
+{
+	public Index_Raven_DocumentsByEntityName()
+	{
+		this.ViewText = @""from doc in docs 
+select new 
+{ 
+	Tag = doc[""""@metadata""""][""""Raven-Entity-Name""""], 
+	LastModified = (DateTime)doc[""""@metadata""""][""""Last-Modified""""],
+	LastModifiedTicks = ((DateTime)doc[""""@metadata""""][""""Last-Modified""""]).Ticks 
+};"";
+		this.AddMapDefinition(docs => 
+			from doc in ((IEnumerable<dynamic>)docs)
+			select new {
+				Tag = doc[""@metadata""][""Raven-Entity-Name""],
+				LastModified = (DateTime)doc[""@metadata""][""Last-Modified""],
+				LastModifiedTicks = ((DateTime)doc[""@metadata""][""Last-Modified""]).Ticks,
+				__document_id = doc.__document_id
+			});
+		this.AddField(""Tag"");
+		this.AddField(""LastModified"");
+		this.AddField(""LastModifiedTicks"");
+		this.AddField(""__document_id"");
+		this.AddQueryParameterForMap(""Ticks"");
+		this.AddQueryParameterForMap(""__document_id"");
+		this.AddQueryParameterForReduce(""Ticks"");
+		this.AddQueryParameterForReduce(""__document_id"");
+	}
+}
+",
+2016-01-18 13:53:47.6898,Raven.Database.Indexing.IndexStorage.Startup,Debug,myDB,Loading saved index Raven/DocumentsByEntityName,
+2016-01-18 13:53:47.7218,Raven.Database.Indexing.Index.Indexing,Debug,myDB,Creating index for 1,
+2016-01-18 13:53:47.8268,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,myDB,Document with key 'Raven/Backup/Status' was not found,
+2016-01-18 13:53:47.8568,Raven.Database.DocumentDatabase,Debug,,Finish loading the following database: myDB,
+2016-01-18 13:53:47.8568,Raven.Database.Indexing.WorkContext,Debug,myDB,"No work was found, workerWorkCounter: 0, for: ReducingExecuter, will wait for additional work",
+2016-01-18 13:53:47.8568,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,"Request #  16: GET     - 2,082 ms - myDB       - 200 - http://localhost:9029/databases/myDB/singleAuthToken",
+2016-01-18 13:53:47.8568,Raven.Database.Indexing.WorkContext,Debug,myDB,"No work was found, workerWorkCounter: 0, for: IndexingExecuter, will wait for additional work",
+2016-01-18 13:53:47.8718,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request #  17: GET     -     0 ms - myDB       - 200 - http://localhost:9029/databases/myDB/changes/events?singleUseAuthToken=a033e8cd-db6f-49b7-afb3-551d31a11cd4&id=JoLNh&coolDownWithDataLoss=5000&isMultyTenantTransport=false,
+2016-01-18 13:53:47.8718,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request #  18: GET     -     0 ms - myDB       - 200 - http://localhost:9029/databases/myDB/changes/config?id=JoLNh&command=watch-docs,
+2016-01-18 13:53:47.8718,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request #  20: GET     -     0 ms - myDB       - 200 - http://localhost:9029/databases/myDB/changes/config?id=JoLNh&command=watch-indexes,
+2016-01-18 13:53:47.8718,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request #  19: GET     -     0 ms - myDB       - 200 - http://localhost:9029/databases/myDB/changes/config?id=JoLNh&command=watch-bulk-operation,
+2016-01-18 13:54:12.4933,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:54:17.8248,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:54:23.6984,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,myDB,"Document with key 'clients/1' was found, etag: 01000000-0000-0001-0000-000000000002",
+2016-01-18 13:54:23.6984,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request #  21: GET     -     6 ms - myDB       - 304 - http://localhost:9029/Databases/myDB/docs/clients/1,
+2016-01-18 13:54:42.5053,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:54:47.8408,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,
+2016-01-18 13:54:59.8130,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,myDB,"Document with key 'clients/1' was found, etag: 01000000-0000-0001-0000-000000000002",
+2016-01-18 13:54:59.8130,Raven.Database.Server.WebApi.RequestManager,Debug,myDB,Request #  22: GET     -     4 ms - myDB       - 200 - http://localhost:9029/Databases/myDB/docs/clients/1,
+2016-01-18 13:55:12.5213,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2016-01-18 13:55:17.8568,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,myDB,Performing Transactions Cleanup Sequence for db myDB,

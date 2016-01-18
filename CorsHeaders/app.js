@@ -13,7 +13,6 @@
                             $scope.headers = response.headers();
                             console.log($scope.headers);
                         });
-
                 };
             }
         ]);
